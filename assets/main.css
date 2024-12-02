@@ -280,17 +280,23 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 #bg-wrap { display: block; position: fixed; z-index: -100; width: 100vw; height: 100vh; }
 
-.home { min-height: 100vh; }
+.home { min-height: 100vh; padding: 0 15px; }
 
 .site-header { padding-top: 10px; position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(255, 255, 255, 0.5); }
 
-.site-nav { line-height: 70px; }
+.site-nav { line-height: 70px; background: none; }
+
+.site-nav .menu-icon { padding-top: 13px; }
+
+.site-nav:hover { background: none; box-shadow: none; }
+
+.site-nav:hover .trigger { border: none; box-shadow: none; }
 
 @media screen and (max-width: 600px) { .site-nav { width: 100%; } }
 
 .site-header .wrapper { padding: 5px 50px; }
 
-.nav-page { display: float; text-align: right; margin: 20px 0 20px 10px; padding: 5px 20px; color: white !important; background-color: #1d1d1b; border: 1px solid #1d1d1b; }
+.nav-page { display: float; text-align: right; margin: 20px 0 20px 10px; padding: 5px 20px; background-color: #1d1d1b; border: 1px solid #1d1d1b; }
 
 .nav-page:hover { background-color: white; color: #1d1d1b !important; text-decoration: none; }
 
