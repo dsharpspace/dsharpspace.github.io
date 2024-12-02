@@ -290,7 +290,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .site-nav .menu-icon { padding-top: 13px; }
 
-.site-nav:hover { background: none; box-shadow: none; }
+.site-nav:hover { background: #F1B42F; box-shadow: none; }
 
 .site-nav:hover .trigger { border: none; box-shadow: none; }
 
@@ -318,9 +318,11 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .ani-text { font-size: 100px; font-weight: 300; text-align: left; display: block; line-height: 100px; color: #fff; padding-top: 40px; }
 
-.d-logo { display: block; padding-top: 15%; }
+.d-logo { display: block; padding-top: 10%; }
 
 .d-logo img { height: 300px; }
+
+@media screen and (max-width: 600px) { .d-logo img { height: 150px; } }
 
 .d-title { color: white; font-size: 30px; line-height: 40px; }
 
@@ -336,11 +338,11 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .lab-logos a:hover { text-decoration: none; }
 
+@media screen and (max-width: 600px) { .lab-logos { width: 180px; margin-right: 20px; } }
+
 #lines-canvas { display: block; position: fixed; background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); height: 100vh; width: 100vw; z-index: -100; animation: gradient 240s ease infinite; }
 
 #lines-canvas svg { height: 130vh; width: 60vw; }
-
-#lines-canvas path { fill: none; stroke: #F4C2C2; stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
 
 .link_button { padding: 10px 20px; margin-top: 50px; border: 1px solid #fff; font-size: 20px; font-weight: 700; letter-spacing: 2px; text-align: center; transition: all 0.3s; color: #fff; font-family: "Noto Sans SC", sans-serif; text-decoration: none; }
 
@@ -351,6 +353,8 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 .link_button:hover a { color: #FE6F5E; text-decoration: none; }
 
 .link_button a { color: #fff; }
+
+@media screen and (max-width: 600px) { .link_button:nth-child(2) { margin-top: 20px; } }
 
 #page_info { background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); height: 100vh; width: 100vw; }
 
