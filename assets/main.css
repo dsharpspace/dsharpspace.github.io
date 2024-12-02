@@ -344,7 +344,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 #lines-canvas svg { height: 130vh; width: 60vw; }
 
-.link_button { padding: 10px 20px; margin-top: 50px; border: 1px solid #fff; font-size: 20px; font-weight: 700; letter-spacing: 2px; text-align: center; transition: all 0.3s; color: #fff; font-family: "Noto Sans SC", sans-serif; text-decoration: none; }
+.link_button { padding: 10px 20px; margin-top: 50px; border: 1px solid #fff; font-size: 20px; font-weight: 500; letter-spacing: 2px; text-align: center; transition: all 0.3s; color: #fff; font-family: "Noto Sans SC", sans-serif; text-decoration: none; }
 
 .link_button:visited { color: #fff; }
 
