@@ -356,6 +356,6 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 @media screen and (max-width: 600px) { .link_button:nth-child(2) { margin-top: 20px; } }
 
-#page_info { background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); height: 100vh; width: 100vw; }
+#page_info { display: block; position: fixed; background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); height: 100vh; width: 100vw; }
 
 /*# sourceMappingURL=main.css.map */
