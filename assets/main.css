@@ -282,9 +282,9 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .home { min-height: 100vh; padding: 0 15px; }
 
-.site-header { padding-top: 10px; position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(255, 255, 255, 0.5); }
+.site-header { padding-top: 10px; position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: #f1b42f; }
 
-.site-nav { line-height: 70px; background: none; }
+.site-nav { line-height: 50px; background: none; }
 
 .site-nav .menu-icon { padding-top: 13px; }
 
@@ -296,15 +296,15 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .site-header .wrapper { padding: 5px 50px; }
 
-.nav-page { display: float; text-align: right; margin: 20px 0 20px 10px; padding: 5px 20px; background-color: #1d1d1b; border: 1px solid #1d1d1b; }
+.nav-page { display: float; text-align: right; margin: 40px 0 20px 10px; padding: 5px 20px; color: white !important; font-size: 25px; font-weight: 300; border: 1px solid white; }
 
-.nav-page:hover { background-color: white; color: #1d1d1b !important; text-decoration: none; }
+.nav-page:hover { background-color: #FE6F5E; text-decoration: none; border: 1px solid #FE6F5E; }
 
 @media screen and (max-width: 600px) { .nav-page { display: block; margin: 10px 10px; padding: 5px 20px; line-height: 32px; text-align: center; } .nav-page:first-of-type { margin-top: 50px; } }
 
-.logo-text { display: inline-block; font-family: "Julius Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; line-height: 35px; font-size: 35px; color: #273BE2; }
+.logo-text { display: inline-block; font-family: "Julius Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; line-height: 50px; font-size: 35px; color: #273BE2; }
 
-.logo-img { height: 45px; width: 45px; margin-top: -15px; z-index: 1000; }
+.logo-img { height: 45px; width: 45px; margin-top: -13px; z-index: 1000; }
 
 .intro { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 80vh; }
 
@@ -316,7 +316,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .ani-text { font-size: 100px; font-weight: 300; text-align: left; display: block; line-height: 100px; color: #fff; padding-top: 40px; }
 
-.d-logo { display: block; padding-top: 20%; }
+.d-logo { display: block; padding-top: 15%; }
 
 .d-logo img { height: 300px; }
 
@@ -324,7 +324,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .d-title.d-en-title { margin-top: 20px; }
 
-.topic h2 { font-weight: 100; font-size: 40px; color: white; }
+.slogan { font-weight: 100; font-size: 40px; color: white; }
 
 .lab-logos { margin-top: 80px; }
 
@@ -339,5 +339,17 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 #lines-canvas svg { height: 130vh; width: 60vw; }
 
 #lines-canvas path { fill: none; stroke: #F4C2C2; stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
+
+.link_button { padding: 10px 20px; margin-top: 50px; border: 1px solid #fff; font-size: 20px; font-weight: 700; letter-spacing: 2px; text-align: center; transition: all 0.3s; color: #fff; font-family: "Noto Sans SC", sans-serif; text-decoration: none; }
+
+.link_button:visited { color: #fff; }
+
+.link_button:hover { background: #fff; color: #FE6F5E; text-decoration: none; }
+
+.link_button:hover a { color: #FE6F5E; text-decoration: none; }
+
+.link_button a { color: #fff; }
+
+#page_info { background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); height: 100vh; width: 100vw; }
 
 /*# sourceMappingURL=main.css.map */
