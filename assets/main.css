@@ -298,7 +298,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .site-header .wrapper { padding: 5px 50px; }
 
-.nav-page { display: float; text-align: right; margin: 40px 0 20px 10px; padding: 5px 20px; color: white !important; font-size: 25px; font-weight: 300; border: 1px solid white; }
+.nav-page { display: float; text-align: right; margin: 40px 0 20px 10px; padding: 5px 20px; color: white !important; font-size: 25px; font-weight: 300; border: 1px solid white; border-radius: 4px; }
 
 .nav-page:hover { background-color: #FE6F5E; text-decoration: none; border: 1px solid #FE6F5E; }
 
@@ -344,7 +344,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 #lines-canvas svg { height: 130vh; width: 60vw; }
 
-.link_button { padding: 10px 20px; margin-top: 50px; border: 1px solid #fff; font-size: 20px; font-weight: 500; letter-spacing: 2px; text-align: center; transition: all 0.3s; color: #fff; font-family: "Noto Sans SC", sans-serif; text-decoration: none; }
+.link_button { padding: 10px 20px; margin-top: 50px; border: 1px solid #fff; font-size: 20px; font-weight: 500; letter-spacing: 2px; text-align: center; transition: all 0.3s; color: #fff; font-family: "Noto Sans SC", sans-serif; text-decoration: none; border-radius: 4px; }
 
 .link_button:visited { color: #fff; }
 
