@@ -316,11 +316,11 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 #gradient-canvas { display: block; position: fixed; width: 100vw; height: 100vh; --gradient-color-1: #273BE2; --gradient-color-2: #F4C2C2; --gradient-color-3: #FE6F5E; --gradient-color-4: #F1B42F; z-index: -100; }
 
-.ani-text { font-size: 100px; font-weight: 300; text-align: left; display: block; line-height: 100px; color: #fff; padding-top: 40px; }
+.ani-text { font-size: 90px; font-weight: 300; text-align: left; display: block; line-height: 100px; color: #fff; padding-top: 40px; }
 
 .d-logo { display: block; padding-top: 10%; }
 
-.d-logo img { height: 300px; }
+.d-logo img { height: 280px; }
 
 @media screen and (max-width: 600px) { .d-logo img { height: 150px; } }
 
@@ -328,7 +328,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .d-title.d-en-title { margin-top: 20px; }
 
-.slogan { font-weight: 100; font-size: 40px; color: white; }
+.d-slogan { font-size: 30px; line-height: 40px; margin-top: 20px; color: white; }
 
 .lab-logos { margin-top: 80px; }
 
