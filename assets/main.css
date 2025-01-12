@@ -382,7 +382,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .banner img { height: 180px; margin-bottom: 10px; }
 
-.site-footer { font-size: small; background-color: #FE6F5E; }
+.site-footer { font-size: small; background-color: #FE6F5E; margin-top: 100px; }
 
 .copyright_info { color: #fff; }
 
