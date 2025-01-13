@@ -376,6 +376,8 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 #page_info h1 + p, #page_info h1 + ul, #page_info h2 + p, #page_info h2 + ul, #page_info h3 + p, #page_info h3 + ul, #page_apply h1 + p, #page_apply h1 + ul, #page_apply h2 + p, #page_apply h2 + ul, #page_apply h3 + p, #page_apply h3 + ul { margin: 15px 0 25px; font-weight: 300; }
 
+#page_info .info-cn .info h2, #page_apply .info-cn .info h2 { margin-top: 65px; }
+
 .banner-row { background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); }
 
 .banner { display: block; margin-top: 100px; margin-left: 20px; }
