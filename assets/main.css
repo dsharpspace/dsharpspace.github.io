@@ -358,25 +358,27 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 @media screen and (max-width: 600px) { .link_button:nth-child(2) { margin-top: 20px; } }
 
-#page_info, #page_apply { display: block; padding-bottom: 50px; min-height: 100vh; width: 100vw; }
+#page_info, #page_apply, #page_about { display: block; padding-bottom: 50px; min-height: 100vh; width: 100vw; }
 
-#page_info h1, #page_apply h1 { font-size: 34px; color: #1d1d1b; margin: 50px 0 20px 0; font-weight: 300; }
+#page_info h1, #page_apply h1, #page_about h1 { font-size: 34px; color: #1d1d1b; margin: 50px 0 20px 0; font-weight: 300; }
 
-#page_info h1 + h1, #page_apply h1 + h1 { margin-top: 5px; }
+#page_info h1 + h1, #page_apply h1 + h1, #page_about h1 + h1 { margin-top: 5px; }
 
-#page_info h2, #page_apply h2 { font-size: 25px; margin: 25px 0 0 0; font-weight: 500; text-transform: uppercase; }
+#page_info h2, #page_apply h2, #page_about h2 { font-size: 25px; margin: 25px 0 0 0; font-weight: 500; text-transform: uppercase; }
 
-#page_info h2 + h2, #page_apply h2 + h2 { margin-top: 5px; }
+#page_info h2 + h2, #page_apply h2 + h2, #page_about h2 + h2 { margin-top: 5px; }
 
-#page_info h2 + h3, #page_apply h2 + h3 { margin-top: 25px; }
+#page_info h2 + h3, #page_apply h2 + h3, #page_about h2 + h3 { margin-top: 25px; }
 
-#page_info h3, #page_apply h3 { font-size: 20px; font-weight: 300; margin: 10px 0; }
+#page_info h3, #page_apply h3, #page_about h3 { font-size: 20px; font-weight: 300; margin: 10px 0; }
 
-#page_info h3 + h3, #page_apply h3 + h3 { margin-top: 5px; }
+#page_info h3 + h3, #page_apply h3 + h3, #page_about h3 + h3 { margin-top: 5px; }
 
-#page_info h1 + p, #page_info h1 + ul, #page_info h2 + p, #page_info h2 + ul, #page_info h3 + p, #page_info h3 + ul, #page_apply h1 + p, #page_apply h1 + ul, #page_apply h2 + p, #page_apply h2 + ul, #page_apply h3 + p, #page_apply h3 + ul { margin: 15px 0 25px; font-weight: 300; }
+#page_info h1 + p, #page_info h1 + ul, #page_info h2 + p, #page_info h2 + ul, #page_info h3 + p, #page_info h3 + ul, #page_apply h1 + p, #page_apply h1 + ul, #page_apply h2 + p, #page_apply h2 + ul, #page_apply h3 + p, #page_apply h3 + ul, #page_about h1 + p, #page_about h1 + ul, #page_about h2 + p, #page_about h2 + ul, #page_about h3 + p, #page_about h3 + ul { margin: 15px 0 25px; font-weight: 300; }
 
-#page_info .info-cn .info h2, #page_apply .info-cn .info h2 { margin-top: 65px; }
+#page_info .info-cn .info h2, #page_apply .info-cn .info h2, #page_about .info-cn .info h2 { margin-top: 65px; }
+
+#page_info .content-cn h2, #page_apply .content-cn h2, #page_about .content-cn h2 { margin-top: 90px; }
 
 .banner-row { background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); }
 
