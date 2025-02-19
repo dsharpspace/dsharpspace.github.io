@@ -266,7 +266,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .highlight .il { color: #099; }
 
-body { background: white; font-size: 1.1em; font-family: "Noto Sans SC", sans-serif; }
+body { background: white; font-size: 1.1em; font-family: "Noto Sans SC", sans-serif; overflow-x: hidden; }
 
 body h1 { font-size: 1.8em; }
 
@@ -276,7 +276,7 @@ body h3 { font-size: 1.3em; }
 
 body p { font-size: 1em; font-weight: 300; }
 
-body:lang(en) { font-family: 'Lato', sans-serif; }
+body:lang(en) { font-family: "Lato", sans-serif; }
 
 #bg-wrap { display: block; position: fixed; z-index: -100; width: 100vw; height: 100vh; }
 
@@ -290,7 +290,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .site-nav .menu-icon { padding-top: 13px; }
 
-.site-nav:hover { background: #F1B42F; box-shadow: none; }
+.site-nav:hover { background: #f1b42f; box-shadow: none; }
 
 .site-nav:hover .trigger { border: none; box-shadow: none; }
 
@@ -298,13 +298,13 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .site-header .wrapper { padding: 5px 50px 10px; }
 
-.nav-page { display: float; text-align: right; margin: 40px 0 20px 10px; padding: 8px 20px; color: white !important; font-size: 25px; font-weight: 300; border: 1px solid white; border-radius: 4px; font-size: 20px; font-weight: 500; }
+.nav-page { display: float; text-align: right; margin: 40px 0 20px 10px; padding: 8px 20px; color: white !important; font-weight: 300; border: 1px solid white; border-radius: 4px; font-size: 20px; font-weight: 500; }
 
-.nav-page:hover { background-color: #FE6F5E; text-decoration: none; border: 1px solid #FE6F5E; }
+.nav-page:hover { background-color: #fe6f5e; text-decoration: none; border: 1px solid #fe6f5e; }
 
 @media screen and (max-width: 600px) { .nav-page { display: block; margin: 10px 10px; padding: 5px 20px; line-height: 32px; text-align: center; } .nav-page:first-of-type { margin-top: 50px; } }
 
-.logo-text { display: inline-block; font-family: "Julius Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; line-height: 50px; font-size: 35px; color: #273BE2; }
+.logo-text { display: inline-block; font-family: "Julius Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; line-height: 50px; font-size: 35px; color: #273be2; }
 
 .logo-img { height: 45px; width: 45px; margin-top: -13px; z-index: 1000; }
 
@@ -314,7 +314,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 @media (max-width: 480px) { .intro { height: auto; } }
 
-#gradient-canvas { display: block; position: fixed; width: 100vw; height: 100vh; --gradient-color-1: #273BE2; --gradient-color-2: #F4C2C2; --gradient-color-3: #FE6F5E; --gradient-color-4: #F1B42F; z-index: -100; }
+#gradient-canvas { display: block; position: fixed; width: 100vw; height: 100vh; --gradient-color-1: #273be2; --gradient-color-2: #f4c2c2; --gradient-color-3: #fe6f5e; --gradient-color-4: #f1b42f; z-index: -100; }
 
 .ani-text { font-size: 90px; font-weight: 300; text-align: left; display: block; line-height: 100px; color: #fff; padding-top: 40px; margin-left: -6px; }
 
@@ -342,7 +342,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 @media screen and (max-width: 600px) { .lab-logos { width: 180px; margin-right: 20px; } }
 
-#lines-canvas { display: block; position: fixed; background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); height: 100vh; width: 100vw; z-index: -100; animation: gradient 240s ease infinite; }
+#lines-canvas { display: block; position: fixed; background: linear-gradient(to bottom right, #273be2, #fe6f5e, #f1b42f); height: 100vh; width: 100vw; z-index: -100; animation: gradient 240s ease infinite; }
 
 #lines-canvas svg { height: 130vh; width: 60vw; }
 
@@ -350,9 +350,9 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .link_button:visited { color: #fff; }
 
-.link_button:hover { background: #fff; color: #FE6F5E; text-decoration: none; }
+.link_button:hover { background: #fff; color: #fe6f5e; text-decoration: none; }
 
-.link_button:hover a { color: #FE6F5E; text-decoration: none; }
+.link_button:hover a { color: #fe6f5e; text-decoration: none; }
 
 .link_button a { color: #fff; }
 
@@ -380,7 +380,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 #page_info .content-cn h2, #page_apply .content-cn h2, #page_about .content-cn h2 { margin-top: 90px; }
 
-.banner-row { background: linear-gradient(to bottom right, #273BE2, #FE6F5E, #F1B42F); }
+.banner-row { background: linear-gradient(to bottom right, #273be2, #fe6f5e, #f1b42f); }
 
 .banner { display: block; margin-top: 100px; margin-left: 20px; }
 
@@ -388,7 +388,7 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 @media screen and (max-width: 600px) { .banner img { height: 120px; } }
 
-.site-footer { font-size: small; background-color: #FE6F5E; margin-top: 100px; }
+.site-footer { font-size: small; background-color: #fe6f5e; margin-top: 100px; }
 
 .copyright_info { color: #fff; }
 
@@ -396,11 +396,15 @@ body:lang(en) { font-family: 'Lato', sans-serif; }
 
 .topic-info-cn p, .topic-info-en p { margin: 5px 0; }
 
-.topic-info-cn p a, .topic-info-en p a { color: #273BE2; }
+.topic-info-cn p a, .topic-info-en p a { color: #273be2; }
 
 .topic-info-cn p::lang(zh), .topic-info-en p::lang(zh) { margin: 10px 0; }
 
 .topic-info-cn h1, .topic-info-en h1 { margin-top: 5px !important; }
+
+.language-tag { display: none; }
+
+@media (max-width: 991.98px) { .language-tag { display: block; color: #fe6f5e; text-align: center; margin: 20px 0 40px; padding: 10px 20px; border: 1px solid #fe6f5e; } .language-tag:visited { color: #fe6f5e; } .language-tag:hover { background-color: #fe6f5e; color: white; text-decoration: none; } }
 
 #apply_form { min-height: 80vh; width: 100%; }
 
